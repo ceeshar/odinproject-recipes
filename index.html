@@ -4,9 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Odin Cookies</title>
 </head>
 <body>
-    <h1>Odin Project</h1>
+    <header>
+        <!-- 
+            header sitenin en üst kısmı ve başlığı içeren kısım.
+            buraya başlık yani header ve alt başlık yani subheader'lar
+            gelebilir. Eğer subheader kullandıysan <hgroup> tag'ini 
+            kullanarak gruplamakta fayda var.
+        -->
+        <h1 id="header">Odin Project</h1>
+    </header>
+    <nav>
+        <!--
+            Sitenin navigasyon kısmı.
+        -->
+    </nav>
+    <section>
+        <!-- Sitenin içeriğinin koyulacağı kısım. -->
+        <article>
+            <h2>Welcome!</h2>
+            
+            <p>
+                You can find the best cookie recipes on this page.
+                They are easy to make and fun to eat!
+            </p>
+
+            <figure>
+                <img src="./images/cookie.jpg" alt="plate full of cookie picture" style="width:800px; height:450px;">
+                <figcaption>Fig.1 - Delicious Cookies, Yum!</figcaption>
+            </figure>
+        </article>
+
+        <article>
+            <h2> BEST COOKIE RECIPES!! </h2>
+            <ul>
+                <li>
+                    <p>
+                         How to make <a href="./recipes/appleBrownies.html">Apple Brownies</a>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                         How to make grandma's special <a href="./recipes/gingersnap.html">Gingersnap!</a>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                         How to make <a href="./recipes//lemonbars.html">Lemon Bars</a>
+                    </p>
+                </li>
+            </ul>
+        </article>
+    </section>
+    <a href="#header">Return to top</a>
 </body>
 </html>
